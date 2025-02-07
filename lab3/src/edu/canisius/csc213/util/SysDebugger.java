@@ -11,6 +11,12 @@ import java.io.IOException;
  * system diagnostics (e.g., process list) after errors.
  */
 public class SysDebugger {
+    public static void logCurrentDateTime() {
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println("=== Current Date & Time ===");
+        System.out.println(now);
+        System.out.println("===========================");		
+    } 
 
     /**
      * Logs the currently running processes (Linux/macOS example).
