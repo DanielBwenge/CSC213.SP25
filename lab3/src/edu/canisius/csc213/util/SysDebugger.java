@@ -10,8 +10,8 @@ import java.io.IOException;
  * SysDebugger - A utility class with static methods to gather
  * system diagnostics (e.g., process list) after errors.
  */
-<<<<<<< Updated upstream
-=======
+//<<<<<<< Updated upstream
+//=======
     // New Method For Time
 public class SysDebugger{
     public static void logCurrentDateTime(){
@@ -20,7 +20,7 @@ public class SysDebugger{
 	System.out.println(now);
 	System.out.println("===========================");
     }
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
 
     /**
      * Logs the currently running processes (Linux/macOS example).

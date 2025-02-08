@@ -5,7 +5,20 @@ import edu.canisius.csc213.util.*;
 /**
  * Demonstrates how to dump running processes if an exception occurs.
  */
+
+
+
+//force an error 
 public class DebugExample {
+
+    public static void main(String[] args) {
+	int num1 = 10;
+	int num2 = 0;
+
+	int result = num1 / num2;
+	System.out.println(result);
+    }
+
 
     public static void main(String[] args) {
         System.out.println("Starting DebugExample...");
