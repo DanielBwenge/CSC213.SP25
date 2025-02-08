@@ -10,6 +10,9 @@ import java.io.IOException;
  * SysDebugger - A utility class with static methods to gather
  * system diagnostics (e.g., process list) after errors.
  */
+
+//New method
+
 public class SysDebugger {
     public static void logCurrentDateTime() {
         LocalDateTime now = LocalDateTime.now();
